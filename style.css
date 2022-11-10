@@ -1,0 +1,66 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    font-size: 2.0rem;
+}
+
+nav {
+    background: white;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2)
+}
+
+.nav-bar {
+    margin: 0 25px;
+
+}
+
+.nav-bar h4 {
+    color: black;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }  
+
+
+.hex-color {
+    margin: 20px 50px;
+    font-size: rem;
+    background: black;
+    color: rgb(101, 255, 242);
+    width: fit-content;
+    padding: 4px 9px;
+    border-radius: 6%;
+}
+
+.btn-color {
+    cursor: pointer;
+    display: flex;
+    background: transparent;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 3px solid;
+    padding: 10px 10px;
+    margin: 0 auto;
+    border-radius: 6%;
+}
+
+.btn-color:hover {
+    background: black;
+    color: white;
+    border-color: black;
+    transition: 0.5s;
+}
